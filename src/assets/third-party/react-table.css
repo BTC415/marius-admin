@@ -1,0 +1,19 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.cell-center {
+  text-align: center;
+}
+.cell-center > * {
+  margin: 0 auto;
+}
+
+.cell-right {
+  text-align: right;
+}
+.cell-right > * {
+  margin: 0 0 0 auto;
+}
